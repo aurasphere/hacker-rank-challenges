@@ -34,5 +34,5 @@ int main() {
     // The 's' variable above should be printed first.
     cout << s + t << endl;
 
-	return 0;
+    return 0;
 }
