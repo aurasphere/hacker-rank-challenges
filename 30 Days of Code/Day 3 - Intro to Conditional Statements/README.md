@@ -45,7 +45,7 @@ Print <code>Weird</code> if the number is weird; otherwise, print <code>Not Weir
 <code>n</code> is odd and odd numbers are weird, so we print <code>Weird</code>.
 
 ## Sample Case 1:  
-<code>n>20</code> and <code>n</code> is even, so it isn't weird. Thus, we print <code>Not Weird</code>.
+<code>n > 20</code> and <code>n</code> is even, so it isn't weird. Thus, we print <code>Not Weird</code>.
  
 # Link
 
