@@ -7,12 +7,16 @@ using namespace std;
 
 void primeTest(int number) {
     
+    // Number lower than 2 are not primes.
      if (number < 2) {
         cout << "Not prime" << endl;
-    }
+        return;
+     }
     
+    // 2 is the only prime even number.
     if (number == 2) {
         cout << "Prime" << endl;
+        return;
     }
     
     // Filter out even numbers to speed things up.
@@ -23,7 +27,7 @@ void primeTest(int number) {
     
     // Primality test by checking up to the square root of the number.
     double sqrt_number = sqrt(number);
-    for (int j = 2; j <= sqrt_number; j++) {
+    for (int j = 3; j <= sqrt_number; j+=2) {
         
         // Number is not prime.
         if (number % j == 0) {
